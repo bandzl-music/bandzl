@@ -1,0 +1,27 @@
+GET_TIX_link_Action
+
+In the current Phase 1 static MVP, the GET TIX link is structured as a standard external anchor tag (<a href="..." target="_blank" class="ticket-link">GET TIX ↗</a>) using the ticket_url property from the dataset.
+
+Here is how it functions across the different phases of the project:
+
+1. In Phase 1 (Current Static MVP)
+	
+	External Link Redirect: When tapped or clicked, it opens a new browser tab (target="_blank") directing the user straight to the external ticket provider or band website URL stored in the dataset (e.g., [https://example.com/tickets/evt-001](https://example.com/tickets/evt-001)).
+
+	Zero Infrastructure: Because there is no backend server or ticketing engine in Phase 1, it relies entirely on pre-scraped or manually entered outbound URLs.
+
+2. How it Evolves in Future Phases 
+	
+	Phase 2 (Automated Ingestion):
+	
+		When your Python/GitHub Actions scrapers and API pipelines populate the database, the scraper logic will automatically parse direct ticketing links from platforms like Eventbrite, Ticketmaster, or venue websites and write them into the ticket_url field.
+
+	Deep Linking / In-App Checkout (Future Scaling):
+	
+		If Bandzl ever incorporates native affiliate ticketing or in-app modals in later versions, this link can be modified to trigger a checkout sheet or native browser view without completely pulling the user away from the PWA map interface.
+
+
+--- Glossary ---
+
+An in-app modal: a pop-up window or overlay that appears on top of an application's main interface, temporarily blocking interaction with the rest of the screen until the user takes action or closes it.
+

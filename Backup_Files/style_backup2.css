@@ -1,0 +1,213 @@
+/* Bandzl Arcade HUD Visual Identity (v0.2.0) */
+:root {
+  --neon-purple: #9d4edd;
+  --electric-teal: #00f5d4;
+  --hot-pink: #ff007f;
+  --arcade-black: #0d0e15;
+  --card-bg: #161925;
+  --hud-border: #2a2e3d;
+  --text-main: #e2e8f0;
+  --text-muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--arcade-black);
+  color: var(--text-main);
+  line-height: 1.5;
+}
+
+header {
+  background-color: #050608;
+  border-bottom: 2px solid var(--electric-teal);
+  padding: 1.2rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 245, 212, 0.15);
+}
+
+header h1 {
+  font-family: 'Press Start 2P', monospace;
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: -1px;
+  color: var(--electric-teal);
+  text-shadow: 0 0 10px rgba(0, 245, 212, 0.6);
+}
+
+header p {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0.4rem 0 0 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+}
+
+main {
+  padding: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Map Standby HUD Box */
+.map-placeholder {
+  background: var(--card-bg);
+  border: 2px solid var(--electric-teal);
+  box-shadow: 0 0 15px rgba(0, 245, 212, 0.15);
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.map-placeholder h2 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.85rem;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.map-placeholder p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Interactive Arcade Button */
+#riff-radar-btn {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.75rem;
+  background-color: var(--hot-pink);
+  color: #ffffff;
+  border: none;
+  padding: 0.9rem 1.4rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 0px #b30059, 0 0 12px rgba(255, 0, 127, 0.4);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+}
+
+#riff-radar-btn:hover {
+  background-color: #ff1a8c;
+  box-shadow: 0 4px 0px #b30059, 0 0 18px rgba(255, 0, 127, 0.7);
+}
+
+#riff-radar-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0px #b30059, 0 0 8px rgba(255, 0, 127, 0.4);
+}
+
+.events-section h2 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1rem;
+  color: var(--electric-teal);
+  border-bottom: 2px dashed var(--hud-border);
+  padding-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.shows-count-header {
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+/* Event Quest Cards */
+.event-card {
+  background: var(--card-bg);
+  border: 2px solid var(--neon-purple);
+  border-radius: 10px;
+  padding: 1.1rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(157, 78, 221, 0.3);
+}
+
+.event-card h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.vibe-badge {
+  display: inline-block;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.55rem;
+  background-color: var(--neon-purple);
+  color: #ffffff;
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+}
+
+.artist-name, .venue-info {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.artist-name {
+  color: var(--electric-teal);
+}
+
+.venue-info {
+  color: var(--text-muted);
+}
+
+.event-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--hud-border);
+  font-size: 0.9rem;
+}
+
+.cost {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.75rem;
+  color: #10b981;
+}
+
+.time {
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.ticket-link {
+  color: var(--electric-teal);
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid var(--electric-teal);
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+
+.ticket-link:hover {
+  background: var(--electric-teal);
+  color: var(--arcade-black);
+}
+
+.loading-text {
+  color: var(--text-muted);
+  font-style: italic;
+}

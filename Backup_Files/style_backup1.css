@@ -1,0 +1,130 @@
+/* Bandzl Visual Identity & Stylesheet */
+:root {
+  --neon-purple: #7928ca;
+  --electric-teal: #00dfd8;
+  --hot-pink: #ff007f;
+  --dark-bg: #121212;
+  --light-bg: #f9fafb;
+  --text-main: #1f2937;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-bg);
+  color: var(--text-main);
+}
+
+header {
+  background-color: var(--dark-bg);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: var(--electric-teal);
+}
+
+header p {
+  margin: 0.2rem 0 0 0;
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+main {
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.map-placeholder {
+  background: white;
+  border: 2px dashed var(--neon-purple);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.map-placeholder h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+#riff-radar-btn {
+  background-color: var(--hot-pink);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 0, 127, 0.3);
+  margin-top: 0.5rem;
+}
+
+.events-section h2 {
+  font-size: 1.4rem;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.event-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-left: 4px solid var(--neon-purple);
+}
+
+.event-card h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.1rem;
+}
+
+.vibe-badge {
+  display: inline-block;
+  background-color: #f3e8ff;
+  color: var(--neon-purple);
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.artist-name, .venue-info {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.event-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.cost {
+  font-weight: bold;
+  color: #059669;
+}
+
+.ticket-link {
+  color: var(--neon-purple);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ticket-link:hover {
+  text-decoration: underline;
+}
