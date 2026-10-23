@@ -66,7 +66,7 @@
     "start_time": "2026-10-24T21:00:00Z",
     "cost": "15.00",
     "vibe": "Electronic/DJ",
-    "ticket_url": "https://example.com/tickets/evt-005",
+    "ticket_url": "https://www.facebook.com/TheMojoLounge2.0/",
     "ticket_label": "Event Info"
   },
   {
@@ -80,7 +80,7 @@
     "start_time": "2026-10-24T23:30:00Z",
     "cost": "10.00",
     "vibe": "Electronic/DJ",
-    "ticket_url": "https://example.com/tickets/evt-006",
+    "ticket_url": "https://www.facebook.com/TheMojoLounge2.0/",
     "ticket_label": "Event Info"
   },
   {
@@ -129,14 +129,14 @@
     "event_id": "evt-010",
     "title": "Acoustic Open Mic Night",
     "artist_name": "Local Songwriters Union",
-    "venue_name": "Becketts Pub",
+    "venue_name": "O'Sullivan's Sports Pub",
     "address": "Thornton Ave, Newark, CA",
     "lat": 37.5295,
     "lng": -122.0392,
     "start_time": "2026-10-26T19:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://example.com/tickets/evt-010",
+    "ticket_url": "https://osullivansnewark.com/",
     "ticket_label": "Event Info"
   },
   {
