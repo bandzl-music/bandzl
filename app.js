@@ -1,9 +1,12 @@
-// Bandzl PWA Client Logic (v0.6.2 - Mobile Resilient & Auto-Cache Fallback)
+// Bandzl PWA Client Logic (v0.6.3 - Persistent Favorites Fix)
 
 let eventsData = [];
 let map;
 let markersLayer;
 let userLocation = { lat: 37.5485, lng: -121.9886 }; // Default: Fremont, CA
+
+// Persistent set of saved event IDs
+let savedEventIds = new Set();
 
 // Generic fallback record shown only if events.json fails to load over the network
 const fallbackEvents = [
@@ -96,15 +99,16 @@ function renderEvents(events) {
 
   events.forEach(event => {
     const dist = calculateDistance(userLocation.lat, userLocation.lng, event.lat, event.lng).toFixed(1);
+    const isSaved = savedEventIds.has(event.event_id);
     
     const eventDate = new Date(event.start_time);
     const dateFormatted = eventDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 
     const card = document.createElement('div');
-    card.className = 'event-card';
+    card.className = `event-card ${isSaved ? 'highlighted' : ''}`;
     card.dataset.id = event.event_id;
     card.innerHTML = `
-      <button class="fav-btn" aria-label="Save Event">🤍</button>
+      <button class="fav-btn" aria-label="Save Event">${isSaved ? '❤️' : '🤍'}</button>
       <span class="vibe-badge">${event.vibe}</span>
       <h3>${event.title}</h3>
       <p class="artist-name"><strong>Artist:</strong> ${event.artist_name}</p>
@@ -119,12 +123,26 @@ function renderEvents(events) {
       </div>
     `;
 
-    // Favorite toggle button listener
+    // Favorite toggle button listener with persistent Set tracking
     const favBtn = card.querySelector('.fav-btn');
     favBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      favBtn.textContent = favBtn.textContent === '🤍' ? '❤️' : '🤍';
-      card.classList.toggle('highlighted');
+      
+      if (savedEventIds.has(event.event_id)) {
+        savedEventIds.delete(event.event_id);
+        favBtn.textContent = '🤍';
+        card.classList.remove('highlighted');
+      } else {
+        savedEventIds.add(event.event_id);
+        favBtn.textContent = '❤️';
+        card.classList.add('highlighted');
+      }
+
+      // If currently viewing favorites filter, re-filter/re-render list immediately
+      const activeFilterBtn = document.querySelector('.filter-btn.active');
+      if (activeFilterBtn && activeFilterBtn.dataset.filter === 'favorites') {
+        filterAndSortEvents();
+      }
     });
 
     // Fixed "View on Map" interaction
@@ -182,8 +200,7 @@ function filterAndSortEvents() {
       const day = eventDate.getDay();
       return (day === 5 || day === 6 || day === 0);
     } else if (filterType === 'favorites') {
-      const card = document.querySelector(`.event-card[data-id="${event.event_id}"]`);
-      return card && card.querySelector('.fav-btn').textContent === '❤️';
+      return savedEventIds.has(event.event_id);
     }
 
     return true;
