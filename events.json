@@ -10,7 +10,8 @@
     "start_time": "2026-10-23T18:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-	  "ticket_url": "https://www.niles.org/"
+    "ticket_url": "https://www.niles.org/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-002",
@@ -23,7 +24,8 @@
     "start_time": "2026-10-23T19:30:00Z",
     "cost": "Free",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://www.freewheelbrewing.com/"
+    "ticket_url": "https://www.freewheelbrewing.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-003",
@@ -36,7 +38,8 @@
     "start_time": "2026-10-23T20:30:00Z",
     "cost": "10.00",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://www.spinayarnsteakhouse.com/"
+    "ticket_url": "https://www.spinayarnsteakhouse.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-004",
@@ -49,7 +52,8 @@
     "start_time": "2026-10-24T14:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://www.discoversantaclara.org/place/santa-clara-central-park/"
+    "ticket_url": "https://www.discoversantaclara.org/place/santa-clara-central-park/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-005",
@@ -62,7 +66,8 @@
     "start_time": "2026-10-24T21:00:00Z",
     "cost": "15.00",
     "vibe": "Electronic/DJ",
-    "ticket_url": "https://example.com/tickets/evt-005"
+    "ticket_url": "https://example.com/tickets/evt-005",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-006",
@@ -75,7 +80,8 @@
     "start_time": "2026-10-24T23:30:00Z",
     "cost": "10.00",
     "vibe": "Electronic/DJ",
-    "ticket_url": "https://example.com/tickets/evt-006"
+    "ticket_url": "https://example.com/tickets/evt-006",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-007",
@@ -88,7 +94,8 @@
     "start_time": "2026-10-25T11:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://nilesflyinga.com/"
+    "ticket_url": "https://nilesflyinga.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-008",
@@ -101,7 +108,8 @@
     "start_time": "2026-10-25T17:30:00Z",
     "cost": "Free",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://missionpizza.com/"
+    "ticket_url": "https://missionpizza.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-009",
@@ -114,7 +122,8 @@
     "start_time": "2026-10-23T20:00:00Z",
     "cost": "Free",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://osullivansescondido.com/"
+    "ticket_url": "https://osullivansescondido.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-010",
@@ -127,7 +136,8 @@
     "start_time": "2026-10-26T19:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://example.com/tickets/evt-010"
+    "ticket_url": "https://example.com/tickets/evt-010",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-011",
@@ -140,7 +150,8 @@
     "start_time": "2026-10-24T15:00:00Z",
     "cost": "25.00",
     "vibe": "Reggae/Dub",
-    "ticket_url": "https://example.com/tickets/evt-011"
+    "ticket_url": "https://example.com/tickets/evt-011",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-012",
@@ -153,7 +164,8 @@
     "start_time": "2026-10-24T20:30:00Z",
     "cost": "12.00",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://example.com/tickets/evt-012"
+    "ticket_url": "https://example.com/tickets/evt-012",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-013",
@@ -166,7 +178,8 @@
     "start_time": "2026-10-23T20:00:00Z",
     "cost": "5.00",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://www.the-bistro.com/"
+    "ticket_url": "https://www.the-bistro.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-014",
@@ -179,7 +192,8 @@
     "start_time": "2026-10-25T16:00:00Z",
     "cost": "Free",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://www.the-bistro.com/"
+    "ticket_url": "https://www.the-bistro.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-015",
@@ -192,7 +206,8 @@
     "start_time": "2026-10-24T21:00:00Z",
     "cost": "18.00",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://www.thechabot.com/"
+    "ticket_url": "https://www.thechabot.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-016",
@@ -205,7 +220,8 @@
     "start_time": "2026-10-23T21:00:00Z",
     "cost": "20.00",
     "vibe": "Funk/Soul",
-    "ticket_url": "https://theritzsanjose.com/"
+    "ticket_url": "https://theritzsanjose.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-017",
@@ -218,7 +234,8 @@
     "start_time": "2026-10-24T21:30:00Z",
     "cost": "Free",
     "vibe": "Indie/Alternative",
-    "ticket_url": "https://example.com/tickets/evt-017"
+    "ticket_url": "https://example.com/tickets/evt-017",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-018",
@@ -231,7 +248,8 @@
     "start_time": "2026-10-24T22:00:00Z",
     "cost": "15.00",
     "vibe": "Electronic/DJ",
-    "ticket_url": "https://example.com/tickets/evt-018"
+    "ticket_url": "https://example.com/tickets/evt-018",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-019",
@@ -244,7 +262,8 @@
     "start_time": "2026-10-25T19:30:00Z",
     "cost": "35.00",
     "vibe": "Hip-Hop/Rap",
-    "ticket_url": "https://www.sanjose.org/listings/san-jose-civic"
+    "ticket_url": "https://www.sanjose.org/listings/san-jose-civic",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-020",
@@ -257,7 +276,8 @@
     "start_time": "2026-10-23T20:00:00Z",
     "cost": "15.00",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://catalystclub.com/"
+    "ticket_url": "https://catalystclub.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-021",
@@ -270,7 +290,8 @@
     "start_time": "2026-10-25T14:00:00Z",
     "cost": "Free",
     "vibe": "Classical",
-    "ticket_url": "https://www.discoversantaclara.org/place/santa-clara-central-park/"
+    "ticket_url": "https://www.discoversantaclara.org/place/santa-clara-central-park/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-022",
@@ -283,7 +304,8 @@
     "start_time": "2026-10-23T19:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://www.fredsplace.bar/"
+    "ticket_url": "https://www.fredsplace.bar/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-023",
@@ -296,7 +318,8 @@
     "start_time": "2026-10-24T20:00:00Z",
     "cost": "8.00",
     "vibe": "Blues",
-    "ticket_url": "https://www.therosepa.com/"
+    "ticket_url": "https://www.therosepa.com/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-024",
@@ -309,7 +332,8 @@
     "start_time": "2026-10-25T18:30:00Z",
     "cost": "40.00",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://live.stanford.edu/your-visit/venues/frost-amphitheater/"
+    "ticket_url": "https://live.stanford.edu/your-visit/venues/frost-amphitheater/",
+    "ticket_label": "Event Info"
   },
   {
     "event_id": "evt-025",
@@ -322,6 +346,7 @@
     "start_time": "2026-10-25T21:00:00Z",
     "cost": "Free",
     "vibe": "Ambient/Chill",
-    "ticket_url": "https://www.niles.org/"
+    "ticket_url": "https://www.niles.org/",
+    "ticket_label": "Event Info"
   }
 ]

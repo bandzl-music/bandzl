@@ -57,7 +57,7 @@ bandzl/
 - [x] Local storage persistence for favorited shows.
 
 ### Phase 4: Pilot Deployment & Offline QA
-- [ ] GitHub Pages static deployment over free HTTPS.
+- [x] GitHub Pages static deployment over free HTTPS.
 - [ ] Cross-platform mobile QA (iOS Safari / Android Chrome touch gestures).
 
 ---

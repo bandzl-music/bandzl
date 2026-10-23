@@ -24,7 +24,7 @@
 <body>
   <header>
     <h1>bandzl</h1>
-    <p>Live Music Finder PWA</p>
+    <p>Live Music Finder PWA v0.6.0</p>
   </header>
 
   <main>
@@ -37,20 +37,30 @@
     <!-- Discovery & Filtering Bar -->
     <section class="discovery-section">
       <div class="search-box">
-        <input type="text" id="search-input" placeholder="🔍 Search bands, venues, vibes..." aria-label="Search events">
+        <input type="search" id="search-input" placeholder="🔍 Search bands, venues, vibes..." aria-label="Search events">
       </div>
-      <div class="filter-bar" role="tablist">
-        <button class="filter-btn active" data-filter="all">All Dates</button>
-        <button class="filter-btn" data-filter="tonight">Tonight</button>
-        <button class="filter-btn" data-filter="weekend">This Weekend</button>
-        <button class="filter-btn" data-filter="favorites">❤️ Saved</button>
+      <!-- Sliding Filter & Sort Toolbar -->
+      <div class="filter-sort-toolbar">
+        <div class="filter-bar" role="tablist">
+          <button class="filter-btn active" data-filter="all">All Dates</button>
+          <button class="filter-btn" data-filter="today">Today</button>
+          <button class="filter-btn" data-filter="weekend">This Weekend</button>
+          <button class="filter-btn" data-filter="favorites">❤️ Saved</button>
+        </div>
+        <div class="sort-dropdown-container">
+          <select id="sort-select" aria-label="Sort events">
+            <option value="date">Sort: Date</option>
+            <option value="distance">Sort: Distance</option>
+            <option value="cost">Sort: Cost</option>
+          </select>
+        </div>
       </div>
     </section>
 
     <!-- Events Bottom Sheet / List -->
     <section class="events-section">
       <div id="events-count-header">
-        <h2>Nearby Shows</h2>
+        <h2>AREA SHOWS</h2>
       </div>
       <div id="events-container" aria-live="polite">
         <p>Loading events...</p>
