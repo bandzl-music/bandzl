@@ -1,5 +1,5 @@
-// Bandzl PWA Service Worker (v0.6.2)
-const CACHE_NAME = 'bandzl-v0.6.2';
+// Bandzl PWA Service Worker (v0.6.11)
+const CACHE_NAME = 'bandzl-v0.6.9';
 
 const ASSETS_TO_CACHE = [
   './',

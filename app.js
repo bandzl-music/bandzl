@@ -1,4 +1,4 @@
-// Bandzl PWA Client Logic (v0.6.3 - Persistent Favorites Fix)
+// Bandzl PWA Client Logic (v0.6.9 - Single Black Note Pin Character)
 
 let eventsData = [];
 let map;
@@ -21,8 +21,8 @@ const fallbackEvents = [
     "start_time": new Date().toISOString(),
     "cost": "N/A",
     "vibe": "Notice",
-    "ticket_url": "#",
-    "ticket_label": "Retry Sync"
+    "event_url": "#",
+    "event_label": "Retry Sync"
   }
 ];
 
@@ -119,7 +119,7 @@ function renderEvents(events) {
       </div>
       <div class="actions" style="margin-top: 0.8rem;">
         <button class="map-link-btn" data-lat="${event.lat}" data-lng="${event.lng}" data-venue="${event.venue_name}">View on Map</button>
-        <a href="${event.ticket_url}" target="_blank" class="ticket-link">${event.ticket_label || 'Event Info'}</a>
+        <a href="${event.event_url}" target="_blank" class="ticket-link">${event.event_label || 'Event Info'}</a>
       </div>
     `;
 
@@ -165,13 +165,22 @@ function renderEvents(events) {
   });
 }
 
-// Update Leaflet map markers
+// Update Leaflet map markers with single note character icon
 function updateMapMarkers(events) {
   if (!markersLayer) return;
   markersLayer.clearLayers();
 
   events.forEach(event => {
-    const marker = L.marker([event.lat, event.lng]);
+    // Create custom circular divIcon with a single black note character (♩)
+    const musicIcon = L.divIcon({
+      className: 'custom-music-pin',
+      html: '♩',
+      iconSize: [32, 32],
+      iconAnchor: [16, 16],
+      popupAnchor: [0, -16]
+    });
+
+    const marker = L.marker([event.lat, event.lng], { icon: musicIcon });
     marker.bindPopup(`<b>${event.venue_name}</b><br>${event.title}<br><em>${event.artist_name}</em>`);
     markersLayer.addLayer(marker);
   });

@@ -10,8 +10,8 @@
     "start_time": "2026-10-23T18:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://www.niles.org/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.niles.org/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-002",
@@ -24,8 +24,8 @@
     "start_time": "2026-10-23T19:30:00Z",
     "cost": "Free",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://www.freewheelbrewing.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.freewheelbrewing.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-003",
@@ -38,8 +38,8 @@
     "start_time": "2026-10-23T20:30:00Z",
     "cost": "10.00",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://www.spinayarnsteakhouse.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.spinayarnsteakhouse.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-004",
@@ -52,8 +52,8 @@
     "start_time": "2026-10-24T14:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://www.discoversantaclara.org/place/santa-clara-central-park/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.discoversantaclara.org/place/santa-clara-central-park/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-005",
@@ -66,8 +66,8 @@
     "start_time": "2026-10-24T21:00:00Z",
     "cost": "15.00",
     "vibe": "Electronic/DJ",
-    "ticket_url": "https://www.facebook.com/TheMojoLounge2.0/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.facebook.com/TheMojoLounge2.0/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-006",
@@ -80,8 +80,8 @@
     "start_time": "2026-10-24T23:30:00Z",
     "cost": "10.00",
     "vibe": "Electronic/DJ",
-    "ticket_url": "https://www.facebook.com/TheMojoLounge2.0/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.facebook.com/TheMojoLounge2.0/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-007",
@@ -94,8 +94,8 @@
     "start_time": "2026-10-25T11:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://nilesflyinga.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://nilesflyinga.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-008",
@@ -108,8 +108,8 @@
     "start_time": "2026-10-25T17:30:00Z",
     "cost": "Free",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://missionpizza.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://missionpizza.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-009",
@@ -122,8 +122,8 @@
     "start_time": "2026-10-23T20:00:00Z",
     "cost": "Free",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://osullivansescondido.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://osullivansescondido.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-010",
@@ -136,8 +136,8 @@
     "start_time": "2026-10-26T19:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://osullivansnewark.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://osullivansnewark.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-011",
@@ -150,8 +150,8 @@
     "start_time": "2026-10-24T15:00:00Z",
     "cost": "25.00",
     "vibe": "Reggae/Dub",
-    "ticket_url": "https://example.com/tickets/evt-011",
-    "ticket_label": "Event Info"
+    "event_url": "https://example.com/tickets/evt-011",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-012",
@@ -164,8 +164,8 @@
     "start_time": "2026-10-24T20:30:00Z",
     "cost": "12.00",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://example.com/tickets/evt-012",
-    "ticket_label": "Event Info"
+    "event_url": "https://example.com/tickets/evt-012",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-013",
@@ -178,8 +178,8 @@
     "start_time": "2026-10-23T20:00:00Z",
     "cost": "5.00",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://www.the-bistro.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.the-bistro.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-014",
@@ -192,8 +192,8 @@
     "start_time": "2026-10-25T16:00:00Z",
     "cost": "Free",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://www.the-bistro.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.the-bistro.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-015",
@@ -206,8 +206,8 @@
     "start_time": "2026-10-24T21:00:00Z",
     "cost": "18.00",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://www.thechabot.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.thechabot.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-016",
@@ -220,8 +220,8 @@
     "start_time": "2026-10-23T21:00:00Z",
     "cost": "20.00",
     "vibe": "Funk/Soul",
-    "ticket_url": "https://theritzsanjose.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://theritzsanjose.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-017",
@@ -234,8 +234,8 @@
     "start_time": "2026-10-24T21:30:00Z",
     "cost": "Free",
     "vibe": "Indie/Alternative",
-    "ticket_url": "https://example.com/tickets/evt-017",
-    "ticket_label": "Event Info"
+    "event_url": "https://example.com/tickets/evt-017",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-018",
@@ -248,8 +248,8 @@
     "start_time": "2026-10-24T22:00:00Z",
     "cost": "15.00",
     "vibe": "Electronic/DJ",
-    "ticket_url": "https://example.com/tickets/evt-018",
-    "ticket_label": "Event Info"
+    "event_url": "https://example.com/tickets/evt-018",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-019",
@@ -262,8 +262,8 @@
     "start_time": "2026-10-25T19:30:00Z",
     "cost": "35.00",
     "vibe": "Hip-Hop/Rap",
-    "ticket_url": "https://www.sanjose.org/listings/san-jose-civic",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.sanjose.org/listings/san-jose-civic",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-020",
@@ -276,8 +276,8 @@
     "start_time": "2026-10-23T20:00:00Z",
     "cost": "15.00",
     "vibe": "Rock/Metal",
-    "ticket_url": "https://catalystclub.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://catalystclub.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-021",
@@ -290,8 +290,8 @@
     "start_time": "2026-10-25T14:00:00Z",
     "cost": "Free",
     "vibe": "Classical",
-    "ticket_url": "https://www.discoversantaclara.org/place/santa-clara-central-park/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.discoversantaclara.org/place/santa-clara-central-park/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-022",
@@ -304,8 +304,8 @@
     "start_time": "2026-10-23T19:00:00Z",
     "cost": "Free",
     "vibe": "Acoustic/Folk",
-    "ticket_url": "https://www.fredsplace.bar/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.fredsplace.bar/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-023",
@@ -318,8 +318,8 @@
     "start_time": "2026-10-24T20:00:00Z",
     "cost": "8.00",
     "vibe": "Blues",
-    "ticket_url": "https://www.therosepa.com/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.therosepa.com/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-024",
@@ -332,8 +332,8 @@
     "start_time": "2026-10-25T18:30:00Z",
     "cost": "40.00",
     "vibe": "Jazz/Soul",
-    "ticket_url": "https://live.stanford.edu/your-visit/venues/frost-amphitheater/",
-    "ticket_label": "Event Info"
+    "event_url": "https://live.stanford.edu/your-visit/venues/frost-amphitheater/",
+    "event_label": "Event Info"
   },
   {
     "event_id": "evt-025",
@@ -346,7 +346,219 @@
     "start_time": "2026-10-25T21:00:00Z",
     "cost": "Free",
     "vibe": "Ambient/Chill",
-    "ticket_url": "https://www.niles.org/",
-    "ticket_label": "Event Info"
+    "event_url": "https://www.niles.org/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-026",
+    "title": "Oakland Waterfront Jazz",
+    "artist_name": "Estuary Sound Syndicate",
+    "venue_name": "Yoshi's Oakland",
+    "address": "510 Embarcadero West, Oakland, CA",
+    "lat": 37.7952,
+    "lng": -122.2741,
+    "start_time": "2026-10-26T20:00:00Z",
+    "cost": "30.00",
+    "vibe": "Jazz/Soul",
+    "event_url": "https://www.yoshis.com/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-027",
+    "title": "Berkeley Folk Underground",
+    "artist_name": "Telegraph Acoustic Circle",
+    "venue_name": "Freight & Salvage",
+    "address": "2020 Addison St, Berkeley, CA",
+    "lat": 37.8690,
+    "lng": -122.2682,
+    "start_time": "2026-10-26T19:30:00Z",
+    "cost": "24.00",
+    "vibe": "Acoustic/Folk",
+    "event_url": "https://www.freightandsalvage.org/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-028",
+    "title": "San Francisco Mission Rock",
+    "artist_name": "Valencia Street Bandits",
+    "venue_name": "The Chapel",
+    "address": "777 Valencia St, San Francisco, CA",
+    "lat": 37.7598,
+    "lng": -122.4214,
+    "start_time": "2026-10-27T21:00:00Z",
+    "cost": "22.00",
+    "vibe": "Rock/Metal",
+    "event_url": "https://thechapelsf.com/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-029",
+    "title": "Silicon Valley Indie Showcase",
+    "artist_name": "Sunnyvale Sound",
+    "venue_name": "Murphy's Law Irish Pub",
+    "address": "135 S Murphy Ave, Sunnyvale, CA",
+    "lat": 37.3797,
+    "lng": -122.0305,
+    "start_time": "2026-10-26T21:00:00Z",
+    "cost": "Free",
+    "vibe": "Indie/Alternative",
+    "event_url": "https://www.murphyslawpub.com/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-030",
+    "title": "Redwood City Courthouse Square Jam",
+    "artist_name": "Peninsula All-Stars",
+    "venue_name": "Courthouse Square",
+    "address": "2200 Broadway, Redwood City, CA",
+    "lat": 37.4852,
+    "lng": -122.2364,
+    "start_time": "2026-10-27T18:00:00Z",
+    "cost": "Free",
+    "vibe": "Acoustic/Folk",
+    "event_url": "https://www.redwoodcity.org/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-031",
+    "title": "Campbell Heritage Theatre Stage",
+    "artist_name": "San Jose Youth Symphony Chamber",
+    "venue_name": "Heritage Theatre",
+    "address": "1 W Campbell Ave, Campbell, CA",
+    "lat": 37.2872,
+    "lng": -121.9470,
+    "start_time": "2026-10-28T19:00:00Z",
+    "cost": "20.00",
+    "vibe": "Classical",
+    "event_url": "https://www.heritagetheatre.org/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-032",
+    "title": "Saratoga Village Jazz Night",
+    "artist_name": "Foothill Jazz Collective",
+    "venue_name": "The Mountain Winery (Plaza)",
+    "address": "14831 Pierce Rd, Saratoga, CA",
+    "lat": 37.2458,
+    "lng": -122.0461,
+    "start_time": "2026-10-28T19:30:00Z",
+    "cost": "25.00",
+    "vibe": "Jazz/Soul",
+    "event_url": "https://www.mountainwinery.com/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-033",
+    "title": "Los Gatos Creek Acoustic Hour",
+    "artist_name": "Loma Prieta Pickers",
+    "venue_name": "The Cats Restaurant & Bar",
+    "address": "17530 Santa Cruz Hwy, Los Gatos, CA",
+    "lat": 37.2185,
+    "lng": -121.9802,
+    "start_time": "2026-10-29T18:30:00Z",
+    "cost": "Free",
+    "vibe": "Acoustic/Folk",
+    "event_url": "https://thecatslosgatos.com/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-034",
+    "title": "Milpitas Town Center Grooves",
+    "artist_name": "Baybeats DJ Crew",
+    "venue_name": "Great Mall Stage",
+    "address": "447 Great Mall Dr, Milpitas, CA",
+    "lat": 37.4182,
+    "lng": -121.9011,
+    "start_time": "2026-10-29T17:00:00Z",
+    "cost": "Free",
+    "vibe": "Electronic/DJ",
+    "event_url": "https://www.greatmallbay.com/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-035",
+    "title": "Half Moon Bay Coastal Blues",
+    "artist_name": "Pacific Fog Horns",
+    "venue_name": "The IDOLs / IDOLs Bay Pub",
+    "address": "Main St, Half Moon Bay, CA",
+    "lat": 37.4636,
+    "lng": -122.4286,
+    "start_time": "2026-10-30T20:00:00Z",
+    "cost": "12.00",
+    "vibe": "Blues",
+    "event_url": "https://www.visithalfmoonbay.org/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-036",
+    "title": "San Mateo Central Park Jam",
+    "artist_name": "Peninsula Wind Ensemble",
+    "venue_name": "San Mateo Central Park",
+    "address": "50 E 5th Ave, San Mateo, CA",
+    "lat": 37.5630,
+    "lng": -122.3214,
+    "start_time": "2026-10-30T15:00:00Z",
+    "cost": "Free",
+    "vibe": "Classical",
+    "event_url": "https://www.cityofsanmateo.org/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-037",
+    "title": "Burlingame Avenue Acoustic Session",
+    "artist_name": "El Camino Songwriters",
+    "venue_name": "Chocatoo Lounge",
+    "address": "1200 Burlingame Ave, Burlingame, CA",
+    "lat": 37.5810,
+    "lng": -122.3612,
+    "start_time": "2026-10-31T19:00:00Z",
+    "cost": "Free",
+    "vibe": "Acoustic/Folk",
+    "event_url": "https://www.burlingame.org/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-038",
+    "include": "Halloween Spooktacular Synth Night",
+    "event_id_alt": "evt-038",
+    "title": "Halloween Spooktacular Synth Night",
+    "artist_name": "Dracula's Synth",
+    "venue_name": "The Mojo Lounge",
+    "address": "37146 Fremont Blvd, Fremont, CA",
+    "lat": 37.5614,
+    "lng": -122.0021,
+    "start_time": "2026-10-31T21:00:00Z",
+    "cost": "20.00",
+    "vibe": "Electronic/DJ",
+    "event_url": "https://www.facebook.com/TheMojoLounge2.0/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-039",
+    "title": "Halloween Metal Bash",
+    "artist_name": "Crypt Keeper",
+    "venue_name": "The Ritz",
+    "address": "400 S 1st St, San Jose, CA",
+    "lat": 37.3308,
+    "lng": -121.8862,
+    "start_time": "2026-10-31T20:30:00Z",
+    "cost": "25.00",
+    "vibe": "Rock/Metal",
+    "event_url": "https://theritzsanjose.com/",
+    "event_label": "Event Info"
+  },
+  {
+    "event_id": "evt-040",
+    "title": "Day of the Dead Latin Jazz Fiesta",
+    "artist_name": "Soneros de San Jose",
+    "venue_name": "Mama Kin",
+    "address": "373 S 1st St, San Jose, CA",
+    "lat": 37.3312,
+    "lng": -121.886,
+    "start_time": "2026-11-01T18:00:00Z",
+    "cost": "15.00",
+    "vibe": "Jazz/Soul",
+    "event_url": "https://example.com/tickets/evt-040",
+    "event_label": "Event Info"
   }
 ]
